@@ -9,7 +9,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'gcc hello.c -o output'
-                sh './output
+                sh './output'
             }
     }
 }
